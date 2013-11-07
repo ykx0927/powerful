@@ -1,0 +1,45 @@
+<html>
+<head>
+<style type="text/css">
+*{font-family: impact;margin: 0;padding: 0;}
+div.first {margin-top: 100;margin-left: 100;}ul{list-style-type: none;position: relative;}a:link,a:visited{text-decoration: none;color: white;background-color: rgb(130,179,212);float: left;padding: 5;margin: 0;width: 130;text-align: center;border: 0;}a:hover,a:active{background-color: gray;border: 0;}
+div.first li ul{position: absolute;left: -999;width: 130;border: 0;}
+div.first li:hover ul{left:0;top:29;border: 0;}
+div.first li:hover ul li ul{position: absolute;left: -999;width: 130;border: 0;}
+div.first li:hover ul li:hover ul{left:140;top:50;border: 0;}
+</style>
+</head>
+<body>
+	<div class="first">
+         <ul>
+          <li><a href="#mob">mobile</a>
+                <ul>
+              	<li><a href="#nokia">nokia</a>
+              	<ul>
+              		<li><a href="#lumia">lumia</a></li>
+              		<li><a href="#asha">asha</a></li>
+              		<li><a href="#symbian">symbian</a></li>
+              	</ul>
+              </li>
+              	<li><a href="#samsung">samsung</a>
+                  <ul>
+                    <li><a href="#galaxy">galaxy</a></li>
+                    <li><a href="#note">note</a></li>
+                  </ul>
+                </li>
+              	<li><a href="#apple">apple</a>
+                  <ul>
+                    <li><a href="#4s">iphone4s</a></li>
+                    <li><a href="#5">iphone5</a></li>
+                    <li><a href="#5s">iphone5s</a></li>
+                  </ul>
+                </li>
+              </ul>
+          </li>
+          <li><a href="#com">computer</a></li>
+          <li><a href="others">others</a></li>
+         </ul>
+     </div>
+	
+</body>
+<html>
